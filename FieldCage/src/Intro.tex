@@ -1,0 +1,171 @@
+\section{Introduction} \label{sec:Introduction} 
+
+
+The NEW field cage is designed to provide an homogeneous and uniform electric field inside the active volume of the NEW detector. To achieve this different parts have to be designed, constructed and assembled. The different components of the the field cage project are:
+\begin{itemize}
+\item Drift region.
+\item Buffer.
+\item High voltage feedthroughs.
+\item Cathode grid.
+\item Electroluminescent region.
+\end{itemize}
+
+
+This document will describe components and report on the progress and the current status. We will also discuss  the final schedule for installation and operation of the field cage.
+
+%The main safety issues are related with the high voltage that we need to apply to the detector. In that sense, the entire detector and all of its metallic components are to be grounded for safety. The grounding points will provide path of least resistance to any stray transients resulting from HV discharges as is common for operation of HV equipment. Moreover, the currents will be small ($\mathcal{O}(\mu A)$) due to the large value of the resistors involved.
+
+\section{Drift region}
+
+The homogeneous field will be created in the drift region using ultra pure copper rings (Fig. \ref{fig:drift1}) connected with 10$G\Omega$ resistors. With a moderate electric field (300-600V/cm), it is one of the less challenging parts of the project and it has remained unchanged since the initial design.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[height=8cm]{img/IMG_0246.JPG}
+\caption{Detail of the copper rings in the drift region.} \label{fig:drift1}
+\end{figure}
+
+
+\section{Buffer region}
+
+In order to protect the PMTs' windows from the cathode voltage safely a certain distance is needed. This space is what we call buffer region. In the current design the buffer region consists in a structure made completely with High Density Polyethilene (HDPE). The electric field in this region is much higher than in the drift region, as much as 5kV/cm, and it can result in sparks in different parts of the region. A first test using a small set-up has shown promising result. The buffer region held the voltage until the High Voltage Feedthrough used for the test started sparking (Fig. \ref{fig:buff1}).
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.45\textwidth]{img/buff1.JPG}
+\caption{Detail of the buffer region test made with High Density Polyethilene (HDPE). Carbon tracks appear to the outside of the HDPE but no carbon tracks are visible in the inside of the buffer region. } \label{fig:buff1}
+\end{figure}
+
+
+A more extensive and realistic test has been performed using the NEXT-DEMO detector. As it is explained in section \ref{sec:tests}.
+
+
+\section{High voltage feedthroughs}
+
+In order to create the different field regions high voltage has to be applied in different parts of the detector. Due to the impossibility of generating the high voltage (HHV) inside the detector (due radioactivity and space problems), the HHV has to be produced outside and then passed inside using feedthroughs that passes the voltage but stops gas leaks.
+
+When discussing about feedthroughs we should differentiate three parts: The high voltage modules, the cable and the feedthrough itself.
+
+The basic design for the feedthrough has remained unchanged but after the last tests in NEXT-DEMO small modifications have been implemented mainly related with the connection of the High Voltage Feedthrough (HVFT) with the cathode/gate. Fig \ref{fig:hvft1} shows the HHVFT design and the electric field simulation. Fig. \ref{fig:hvft_tip} shows a detail of the new design for the HVFT tip. In this case the tip has been changed in order to minimize the electric field in its surface.
+
+%since the last consultation with H. Wang. Figure \ref{fig:hvft1}) shows the current design and the results of the electric field simulations.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.45\textwidth]{img/HVFT_full_image.jpg}
+\includegraphics[width=0.45\textwidth]{img/HVFT_with_drift.png}
+\caption{Design (left) and Comsol simulation (right) of the HVFT to be used in NEW.} \label{fig:hvft1}
+\end{figure}
+
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.45\textwidth]{img/HVFT_tip_detail.jpg}
+\caption{Detail of the HVFT tip. A new  copper conector has been designed in order to minimize as much as possible the electric field in the surface of the tip.} \label{fig:hvft_tip}
+\end{figure}
+
+%A key part on that design was the cryo-fitting components to create gas tight seals.  A test with HDPE was performed at IFIC with good results (Fig. \ref{fig:hvft2}) and we are confident of using this technique in future designs.
+%
+%\begin{figure}[h!]
+%\centering
+%\includegraphics[width=0.45\textwidth]{img/cryofit1.jpg}
+%\includegraphics[width=0.45\textwidth]{img/cryofit2.jpg}
+%\caption{Test for the cryofit sealing. Left image shows the position of the HDPE against the outer vessel. Right image shows the inner steel conductor that will seal agains the inner hole of the HDPE.} \label{fig:hvft2}
+%\end{figure}
+
+%During assebly the feedthroughs will be separated from the main vessel and that can represent a safety issue. In order to avoid any possible damage to the people involved in the assembly the next protocol must be followed:
+%
+%\begin{itemize}
+%\item The high voltage feedthrough (HHVFT) has to be completely disconnected from the HHV modules when putting them in place.
+%\item Once they have been put in its place in the detector they can be connected to the high voltages modules.
+%\item Only authorized people should be able to manipulate modules output voltage manually. Normal user should set the voltage using the slow control system as it is defined in the shifter manual.
+%\end{itemize}
+
+%In the other hand, a few considerations need to be taken into account when operating the detector:
+
+\begin{itemize}
+\item The HHV modules need to be grounded using a proper connexion to the rack frame. This connexion should be check periodically to ensure the quality of the connexion.
+\item The cable need to be support with a flexible/movable structure at the top  of the lead castle that will allow to hold the cable when opening/closing the castle without damaging the cable.
+\end{itemize}
+
+\section{Cathode grid}
+
+The cathode grid consist of a stainless steel frame with wires to fix the potential. It is part of University of Texas A\&M responsibility in the Collaboration. The cathode is already in Spain and it is being installed according to the plan.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.45\textwidth]{img/cathode_1.jpg}
+\includegraphics[width=0.45\textwidth]{img/cathode_tensioners.jpg}
+\caption{Cathode frame (left) with a detail of the groves for fixing the wires. The bronze tensioners (left) will be used to strength avery wire at the right tension.} \label{fig:cath}
+\end{figure}
+
+
+%No safety issues have been identified with this component of the field cage.
+
+
+\section{Electroluminescent region}
+
+The electroluminescent region is the amplification region of the detector and it is designed to work with the highest electric field.
+It consist of a steel mesh grid and a fused silica plate both supported by a HDPE frame.
+
+The main parts of the Electroluminescent region are the mesh and the anode plate. The anode consists in a plate of fused silica coated with ITO in one side and TPB in the other. The fused silica with the layer ITO was produced by Texas A\&M and it arrived at the end of May 2015. It was coated at the DarkSide Gran Sasso coating facilities and it is ready for installation.
+
+On the other hand, the gate mesh it is ready for assembly in the detector according to the plan.
+
+Figure \ref{fig:el} shows details of the different parts of the electroluminescent region.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.45\textwidth]{img/mesh_grid_1.jpg}
+\includegraphics[width=0.45\textwidth]{img/SS_grids_1.jpg}
+\includegraphics[width=0.45\textwidth]{img/Anode_coated.jpg}
+\caption{Top pictures show the diferent frames used for assembly and tension the gate mesh. Bottom is a picture of the fused silica plate before coating with ITO} \label{fig:el}
+\end{figure}
+
+
+The gate mesh is held by a HDPE support that will place the gate at its position. Figure \ref{fig:el_support} shows the holder.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.45\textwidth]{img/EL_support.jpg}
+%\includegraphics[width=0.45\textwidth]{img/SS_grids_1.jpg}
+%\includegraphics[width=0.45\textwidth]{img/Anode_coated.jpg}
+\caption{Top pictures show the diferent frames used for assembly and tension the gate mesh. Bottom is a picture of the fused silica plate before coating with ITO} \label{fig:el_support}
+\end{figure}
+
+
+%Due to the intensity of the electric field sparks may occur while operating the detector but they will happen inside the detector and so they do not represent a safety issue.
+
+%When installing the detector the fused silica plate needs to be treated very carefull. Only people authorized by the experiment may be allow to do that.
+
+
+\section{Field cage tests}\label{sec:tests}
+
+A series of tests on the HHV for the field cage have been performed using the NEXT-DEMO vessel and a NEW-style FC adapted to DEMO size (see Fig. \ref{fig:bufftest}). The test have been very helpful and a serie of new tests after a few modifications of the current design is  planned.
+%For conducting this test we will replace the current NEXT-DEMO field cage by a small scale field cage of NEW (Fig. \ref{fig:bufftest}) using also the same HVFT that we want to use for NEW. In this way we would be able to test time both the buffer region and the HVFT in a more realistic situation.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.45\textwidth]{img/demotest}
+\caption{Design of the test to be performed in the NEXT-DEMO detector. In the cathode (left) the feedthrough with the NEW design is used, in the gate (right) the feedthrough currently being used in DEMO is shown as reference.} \label{fig:bufftest}
+\end{figure}
+
+
+\section{Status}
+
+The field cage is being installed during the second half of April. Tests on the different components at High Voltage will be performed the first week of May and that is the last step towards the start of the data adquisition.
+
+%\section{Installation, schedule, and possible bottle necks}
+%
+%
+%The time planning for  the NEW field cage ready is illustrated in Fig. \ref{fig:gantt}. It shows that the field cage could be ready by the end of July. 
+%In the other hand, there exist a possible bottleneck related with the test in NEXT-DEMO. If that test fails the design of the buffer, HVFT or both will need to be redesigned and tested again. That will imply a general delay of at least one to two months in the delivery.
+%
+%\begin{figure}[h!]
+%\centering
+%\includegraphics[width=0.99\textwidth]{img/ganttchart.pdf}
+%\caption{Planning to have the NEW field cage ready.} \label{fig:gantt}
+%\end{figure}
+
+
+

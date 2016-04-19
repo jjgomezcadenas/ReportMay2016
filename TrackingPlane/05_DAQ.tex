@@ -1,0 +1,11 @@
+\section{Digitization, data handling and interface to the DAQ electronics}
+An on-board FPGA Virtex-6 XC6VLX130T reads out data from up to 64 1-MHz ADCs, formats data, time-stamps and stores them in a reconfigurable-length dual-event circular buffer to avoid dead time. When a trigger is received, zero-suppressed data are read out and sent to the upper stage.
+The circular buffer is implemented with the internal resources of the FPGA and is able to store two complete events in raw mode, whose maximum size corresponds to approximately twice the maximum detector drift time (up to 3.2 ms).
+Baseline adjustment and zero-suppression parameters (baseline reference, value over the baseline, pre- and post-samples, minimum number of samples to consider a pulse) are configurable through a set of commands. 
+Raw data mode of operation, where no zero suppression occurs, is also supported for testing purposes.
+
+Front-end cards interface the Scalable Readout System's (SRS) DAQ interface modules \cite{bib6} (tested on both FECv3 and the new FECv6) through the SRS' DTCC (Data, Trigger, Clock and Control) link specification over copper \cite{bib7}. In this link, data, trigger, clock and slow controls flow on the same RJ-45 or HDMI connector over 4 LVDS pairs. ALICE's DATE is used as DAQ software environment. As a result, the front-end electronics are fully compatible with CERN RD-51 SRS electronics.
+The DTCC configuration used is the basic one.
+The link has been fully tested up to 250 Mbps over the two data pairs using 1 meter SFTP 6A copper cables.
+
+%%%%%%%%%%%%%%%%%%%

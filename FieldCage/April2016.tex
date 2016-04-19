@@ -1,0 +1,98 @@
+\documentclass[11pt,a4paper]{article}
+%\pdfoutput=1
+\usepackage{jheppub}
+%\usepackage{dcolumn}
+\usepackage{multirow}
+\usepackage[section,subsection,subsubsection]{extraplaceins}
+%\usepackage{afterpage}
+%\usepackage{graphicx}
+%\usepackage{caption}
+%\usepackage{subcaption}
+\usepackage[toc,page]{appendix}
+\usepackage[final]{pdfpages}
+\usepackage{filecontents}
+
+\usepackage{graphicx}
+%\usepackage{bookman}
+%\usepackage[paper=A4,pagesize]{typearea}
+%\usepackage[paper=A2,pagesize]{typearea}
+%\usepackage{afterpage}
+%\usepackage{lipsum}% dummy code
+
+%% Hack to make math formulas bold in section titles
+\makeatletter
+\DeclareRobustCommand*{\bfseries}{%
+  \not@math@alphabet\bfseries\mathbf
+  \fontseries\bfdefault\selectfont
+  \boldmath
+}
+\makeatother
+
+
+\begin{document}
+
+\input{Commands.tex}
+
+
+\title{NEW Field Cage: Progress Report, May, 2016}
+
+%\author[a]{V.~Alvarez,} \emailAdd{Vicente.Alvarez@ific.uv.es}
+%\author[a]{S.~Carcel,} \emailAdd{carcel@ific.uv.es}
+%\author[a]{J.J.~G\'omez-Cadenas,} \emailAdd{gomez@mail.cern.ch}
+\author[a]{F.~Monrabal,} \emailAdd{francesc.monrabal@ific.uv.es}
+\author[a]{I.~Liubarsky,} \emailAdd{Igor.Liubarsky@ific.uv.es}
+\author[a]{A.~Martinez,} \emailAdd{Alberto.Martinez.Perez@ific.uv.es}
+%\author[a]{J.~Rodriguez,} \emailAdd{Javier.Rodriguez@ific.uv.es}
+\author[a]{J.J. G\'omez-Cadenas,} \emailAdd{gomez@mail.cern.ch}
+
+
+\affiliation[a]{Instituto de F\'isica Corpuscular (IFIC), CSIC \& Universidad de Valencia \\
+46980 Valencia, Spain}
+%\affiliation[b]{ITexas A\& M University - Department of Physics and Astronomy
+%College Station, 77843-7717 TX, 4242 TAMU, USA}
+
+\abstract{}
+
+%\keywords{Dark Matter and Double Beta Decay}
+
+%\arxivnumber{}
+
+\maketitle
+\flushbottom
+
+\input{src/Intro.tex} 
+%\input{src/Intro.tex} 
+%\input{src/Design.tex} 
+%\input{src/Assembly.tex} 
+%\input{src/Pending.tex} 
+%\input{src/draws.tex}
+
+
+%\includepdf[pages=-,fitpaper]{document-a4}
+%\includepdf[pages=-,fitpaper]{document-a3}
+
+
+
+%\section{Materials} \label{sec:proposals}
+%\input{src/Proposals.tex}
+
+%\section{Assembly protocol}\label{sec:results}
+%\input{src/ResultsIntro.tex} 
+%\input{src/Resolution.tex} 
+%\input{src/Results.tex} 
+%
+%\section{Grids}\label{sec:scalability}
+%\input{src/Scalability.tex} 
+
+%\section{Conclusions}\label{sec:conclusions}
+%\input{src/Conclusions.tex} 
+
+%	
+%\appendix
+%\section{Construction of unified-approach confidence intervals}\label{sec:fc}
+%\input{src/FC.tex}
+
+%\bibliographystyle{JHEP}
+%\bibliography{references}
+\end{document}
+%

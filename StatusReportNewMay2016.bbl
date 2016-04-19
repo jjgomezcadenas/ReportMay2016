@@ -1,0 +1,114 @@
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
+
+\bibitem{Alvarez:2012haa}
+{\bf NEXT} Collaboration, V.~Alvarez et~al., {\it {NEXT-100 Technical Design
+  Report (TDR): Executive Summary}},  {\em JINST} {\bf 7} (2012) T06001,
+  [\href{http://xxx.lanl.gov/abs/1202.0721}{{\tt arXiv:1202.0721}}].
+
+\bibitem{Freitas:2015tha}
+{\bf NEXT} Collaboration, E.~D.~C. Freitas et~al., {\it {PMT calibration of a
+  scintillation detector using primary scintillation}},  {\em JINST} {\bf 10}
+  (2015), no.~02 C02039.
+
+\bibitem{Alvarez:2012as}
+{\bf NEXT} Collaboration, V.~Alvarez et~al., {\it {Radiopurity control in the
+  NEXT-100 double beta decay experiment: procedures and initial measurements}},
+   {\em JINST} {\bf 8} (2012) T01002,
+  [\href{http://xxx.lanl.gov/abs/1211.3961}{{\tt arXiv:1211.3961}}].
+
+\bibitem{Alvarez:2014kvs}
+{\bf NEXT} Collaboration, S.~Cebrian et~al., {\it {Radiopurity assessment of
+  the tracking readout for the NEXT double beta decay experiment}},  {\em
+  JINST} {\bf 10} (2015), no.~05 P05006,
+  [\href{http://xxx.lanl.gov/abs/1411.1433}{{\tt arXiv:1411.1433}}].
+
+\bibitem{Cebrian:2015jna}
+S.~Cebrian et~al., {\it {Radon and material radiopurity assessment for the NEXT
+  double beta decay experiment}},  {\em AIP Conf. Proc.} {\bf 1672} (2015)
+  060002, [\href{http://xxx.lanl.gov/abs/1505.0705}{{\tt arXiv:1505.0705}}].
+
+\bibitem{Esteve:2012hy}
+R.~Esteve, J.~Toledo, F.~Monrabal, D.~Lorca, L.~Serra, et~al., {\it {The
+  trigger system in the NEXT-DEMO detector}},  {\em JINST} {\bf 7} (2012)
+  C12001.
+
+\bibitem{Gil:2012sr}
+A.~Gil, J.~Diaz, J.~G\'omez-Cadenas, V.~Herrero, J.~Rodriguez, et~al., {\it
+  {Front-end electronics for accurate energy measurement of double beta
+  decays}},  {\em Nucl.\ Instrum.\ Meth.\ A} {\bf 695} (2012) 407--409.
+
+\bibitem{Alvarez:2012hh}
+{\bf NEXT} Collaboration, V.~Alvarez et~al., {\it {Near-Intrinsic Energy
+  Resolution for 30 to 662 keV Gamma Rays in a High Pressure Xenon
+  Electroluminescent TPC}},  {\em Nucl.\ Instrum.\ Meth.} {\bf A708} (2012)
+  101--114, [\href{http://xxx.lanl.gov/abs/1211.4474}{{\tt arXiv:1211.4474}}].
+
+\bibitem{Alvarez:2013gxa}
+{\bf The NEXT Collaboration} Collaboration, V.~çlvarez et~al., {\it {Operation
+  and first results of the NEXT-DEMO prototype using a silicon photomultiplier
+  tracking array}},  \href{http://xxx.lanl.gov/abs/1306.0471}{{\tt
+  arXiv:1306.0471}}.
+
+\bibitem{Alvarez:2012hu}
+{\bf NEXT} Collaboration, V.~\'Alvarez et~al., {\it {Ionization and
+  scintillation response of high-pressure xenon gas to alpha particles}},  {\em
+  JINST} {\bf 1305} (2013) P05025,
+  [\href{http://xxx.lanl.gov/abs/1211.4508}{{\tt arXiv:1211.4508}}].
+
+\bibitem{Lorca:2014sra}
+{\bf NEXT} Collaboration, D.~Lorca et~al., {\it {Characterisation of NEXT-DEMO
+  using xenon K$_{\alpha}$ X-rays}},  {\em JINST} {\bf 9} (2014), no.~10
+  P10007, [\href{http://xxx.lanl.gov/abs/1407.3966}{{\tt arXiv:1407.3966}}].
+
+\bibitem{Alvarez:2013kqa}
+{\bf The NEXT collaboration} Collaboration, V.~Alvarez et~al., {\it
+  {Characterization of a medium size Xe/TMA TPC instrumented with microbulk
+  Micromegas, using low-energy $\gamma$-rays}},
+  \href{http://xxx.lanl.gov/abs/1311.3535}{{\tt arXiv:1311.3535}}.
+
+\bibitem{Alvarez:2013oha}
+{\bf NEXT Collaboration} Collaboration, V.~Álvarez et~al., {\it {Description
+  and commissioning of NEXT-MM prototype: first results from operation in a
+  Xenon-Trimethylamine gas mixture}},
+  \href{http://xxx.lanl.gov/abs/1311.3242}{{\tt arXiv:1311.3242}}.
+
+\bibitem{Renner:2014mha}
+{\bf NEXT} Collaboration, J.~Renner et~al., {\it {Ionization and scintillation
+  of nuclear recoils in gaseous xenon}},  {\em Nucl. Instrum. Meth.} {\bf A793}
+  (2015) 62--74, [\href{http://xxx.lanl.gov/abs/1409.2853}{{\tt
+  arXiv:1409.2853}}].
+
+\bibitem{Serra:2014zda}
+{\bf NEXT} Collaboration, L.~Serra et~al., {\it {An improved measurement of
+  electron-ion recombination in high-pressure xenon gas}},  {\em JINST} {\bf
+  10} (2015), no.~03 P03025, [\href{http://xxx.lanl.gov/abs/1412.3573}{{\tt
+  arXiv:1412.3573}}].
+
+\bibitem{Ferrario:2015kta}
+{\bf NEXT} Collaboration, P.~Ferrario et~al., {\it {First proof of topological
+  signature in the high pressure xenon gas TPC with electroluminescence
+  amplification for the NEXT experiment}},  {\em JHEP} {\bf 01} (2016) 104,
+  [\href{http://xxx.lanl.gov/abs/1507.0590}{{\tt arXiv:1507.0590}}].
+
+\bibitem{GomezCadenas:2012jv}
+J.~G\'omez-Cadenas, J.~Mart\'in-Albo, and F.~Monrabal, {\it {NEXT,
+  high-pressure xenon gas experiments for ultimate sensitivity to Majorana
+  neutrinos}},  {\em JINST} {\bf 7} (2012) C11007,
+  [\href{http://xxx.lanl.gov/abs/1210.0341}{{\tt arXiv:1210.0341}}].
+
+\bibitem{MartinAlbo:2013ve}
+{\bf NEXT} Collaboration, J.~Mart\'in-Albo and J.~J. G\'omez-Cadenas, {\it
+  {Status and physics potential of NEXT-100}},
+  \href{http://xxx.lanl.gov/abs/1301.2966}{{\tt arXiv:1301.2966}}.
+
+\bibitem{Gomez-Cadenas:2013lta}
+{\bf NEXT Collaboration} Collaboration, J.~Gomez-Cadenas et~al., {\it {Present
+  status and future perspectives of the NEXT experiment}},
+  \href{http://xxx.lanl.gov/abs/1307.3914}{{\tt arXiv:1307.3914}}.
+
+\bibitem{Martin-Albo:2015rhw}
+{\bf NEXT} Collaboration, J.~Martin-Albo et~al., {\it {Sensitivity of NEXT-100
+  to neutrinoless double beta decay}},
+  \href{http://xxx.lanl.gov/abs/1511.0924}{{\tt arXiv:1511.0924}}.
+
+\end{thebibliography}\endgroup

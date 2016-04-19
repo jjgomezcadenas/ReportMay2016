@@ -1,0 +1,64 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{rotating}
+
+\renewcommand{\labelenumii}{\theenumii}
+\renewcommand{\theenumii}{\theenumi.\arabic{enumii}.}
+
+\title{NEW Energy plane\\ Status report May 2016}
+
+\author{V.~\'Alvarez, S.~C\'arcel, A.~Laing,
+  I.~Liubarsky, A.~Mart\'inez, J. Rodriguez, V. Herrero \\ and J.J. G\'omez-Cadenas}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+  This document contains a description of the work performed and
+  ongoing related to the realisation of the safe and efficient installation of all components related to the energy plane of NEW.
+\end{abstract}
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+\section{Energy plane design}
+\label{sec:design}
+The energy plane (shown in figure~\ref{fig:des})
+consists of a 11 ~cm thick copper support plate with 12 copper window
+covered with brazed sapphire windows fixed to the front of the plate. The
+set-up as a whole seals the pressure vessel from the PMT-region,
+which is held at vacuum levels of
+$<10^{-4}$~mbar. Additional copper shielding fixed to the
+vacuum side of the apertures, offer further shielding against gammas traversing the PMTs and
+entering in the detector volume. The 12 Hamamatsu R11410 PMTs are optically coupled to 
+the sapphire window using NyoGel OCK-451. The sensors are held in place by a plastic brace and spring.
+
+\begin{figure}[tph!]
+  \begin{center}
+    \includegraphics[height=4cm,width=0.45\textwidth]{img/SUPERCAN}
+%    \includegraphics[height=4cm,width=0.45\textwidth]{img/SUPERCAN_1} \\
+    \includegraphics[height=4cm,width=0.45\textwidth]{img/SUPERCAN_3}
+	  \includegraphics[height=4cm,width=0.45\textwidth]{img/SUPERCAN_2}
+  \end{center}
+  \caption{Tecnical drawings for the energy plane. }
+  \label{fig:des}
+\end{figure}
+
+The PMTs receive high voltage and have their signal extracted via a
+shielded twisted pair cable connected to a feedthrough in the energy-plane head. The distribution of
+signal and supply at each individual PMT is controlled via a
+Kapton circuit board (base), covered with a
+copper cap filled with epoxy and connected to the support plate. The cap acts as a heat sink.
+
+Figure \ref{fig:des} shows a transversal cut of the design of the energy plane and a frontal view of the copper mother-can. The PMTs position is clearly visible in the frontal view. 
+
+\input{progress.tex}
+\input{Energy_FEE.tex}
+
+\end{document}

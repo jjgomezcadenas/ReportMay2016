@@ -1,0 +1,81 @@
+\documentclass[12pt]{article}
+
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage{subfig}
+\usepackage{subfloat}
+\usepackage{hyperref}
+\usepackage{eurosym}
+\usepackage{xcolor,colortbl} % Color en tablas
+\definecolor{LightGrey}{rgb}{0.85,0.85,0.85}
+\usepackage[a4paper]{geometry}                                
+\usepackage{enumitem}    
+
+\newcommand{\degree}{^{\circ}C}
+
+\newcommand{\LinkColor}{blue}	% Link color
+\hypersetup{
+		{colorlinks},
+		{linkcolor=\LinkColor},
+		{citecolor=\LinkColor},
+		{urlcolor=\LinkColor},
+}
+\usepackage[
+%	language = spanish,
+	url = true,
+	%style = authoryear,
+	hyperref = true,
+	backref = true,
+	backend = biber,
+	sorting = none,
+	]{biblatex}
+	
+\bibliography{References}
+
+\graphicspath{{IMG/}{IMG/Results/}}
+	
+\begin{document}
+    \raggedbottom
+    \sloppy \lefthyphenmin=1000
+    \setlength{\parskip}{3ex}
+
+\title{NEW Tracking Plane Subproject \\Status Report (May 2016)}
+
+\author{J. Rodr\'iguez, M. Querol, A. Mart\'inez, S. C\'arcel, A. Sim\'on, F. Monrabal, \\ J. Toledo, J.J. G\'omez-Cadenas}
+\date{May-2016}
+
+\maketitle
+
+\section*{Abstract}
+
+This work describes the tracking plane of the NEW detector, including the sensors, front-end electronics, cables, custom feedthroughs and power supply. 
+\clearpage
+
+\tableofcontents
+
+\clearpage
+
+\input{00_Intro}
+\input{01_SiPMs}
+\input{02_DB}
+\input{Characterization}
+\input{reflectors}
+\input{status}
+
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+
+\bibitemsep = 3ex
+\bibhang = 2em
+\printbibliography[heading=bibintoc,title=Bibliography]
+
+\end{document}
+
+
+
+
